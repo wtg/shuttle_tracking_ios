@@ -58,6 +58,7 @@
 		5CE624A41471835600664156 /* STStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE624A31471835600664156 /* STStop.m */; };
 		5CE624AA1471835600664156 /* STFavoriteStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE624A91471835600664156 /* STFavoriteStop.m */; };
 		5CE624AD1471835600664156 /* STETA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE624AC1471835600664156 /* STETA.m */; };
+		BEBD9AC9197BB62800BFEA76 /* stop_marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBD9AC8197BB62800BFEA76 /* stop_marker@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,7 @@
 		5CE624A91471835600664156 /* STFavoriteStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFavoriteStop.m; sourceTree = "<group>"; };
 		5CE624AB1471835600664156 /* STETA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STETA.h; sourceTree = "<group>"; };
 		5CE624AC1471835600664156 /* STETA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STETA.m; sourceTree = "<group>"; };
+		BEBD9AC8197BB62800BFEA76 /* stop_marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop_marker@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +261,7 @@
 				5C68B606145C950500D9A82E /* shuttle_color_south.png */,
 				5C68B607145C950500D9A82E /* shuttle_color_west.png */,
 				5C68B608145C950500D9A82E /* stop_marker.png */,
+				BEBD9AC8197BB62800BFEA76 /* stop_marker@2x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				5C68B61C145C961C00D9A82E /* Icon-Small@2x.png in Resources */,
 				5C68B61E145C964A00D9A82E /* Icon.png in Resources */,
 				5C68B620145C964D00D9A82E /* Icon@2x.png in Resources */,
+				BEBD9AC9197BB62800BFEA76 /* stop_marker@2x.png in Resources */,
 				5C68B622145C965200D9A82E /* Icon-72.png in Resources */,
 				5C68B624145C965700D9A82E /* Default.png in Resources */,
 				5C68B626145C965A00D9A82E /* Default@2x.png in Resources */,
