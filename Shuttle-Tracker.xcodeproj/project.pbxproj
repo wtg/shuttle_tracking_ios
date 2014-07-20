@@ -559,7 +559,7 @@
 				5CCA68BC1641F8D600E637D6 /* TestFlight */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		5C68B53C145C85AC00D9A82E /* Build configuration list for PBXNativeTarget "Shuttle-Tracker" */ = {
 			isa = XCConfigurationList;
@@ -570,7 +570,7 @@
 				5CCA68BD1641F8D600E637D6 /* TestFlight */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 
