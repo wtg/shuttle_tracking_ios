@@ -22,7 +22,6 @@
 @property (nonatomic) CGFloat speed;
 @property (nonatomic) CLLocationCoordinate2D coordinate;
 
-@property (readonly, nonatomic) NSString *title;
 
 - (void)copyStatusFromShuttle:(STSimpleShuttle *)shuttle;
 
