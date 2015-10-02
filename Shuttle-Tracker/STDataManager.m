@@ -60,18 +60,7 @@
 
 
 - (void)dealloc {
-    if (self.loadMapInfoJsonQueue) {
-        dispatch_release(self.loadMapInfoJsonQueue);
-    }
-    
-    if (self.loadVehicleJsonQueue) {
-        dispatch_release(self.loadVehicleJsonQueue);
-    }
-    
-    if (self.loadEtaJsonQueue) {
-        dispatch_release(self.loadEtaJsonQueue);
-    }
-    
+
 }
 
 

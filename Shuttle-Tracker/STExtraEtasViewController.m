@@ -102,7 +102,6 @@
         }
     });
     
-    dispatch_release(extraEtasQueue);
 }
 
 #pragma mark - View lifecycle
