@@ -1,5 +1,7 @@
 language: objective-c
 xcode_project: Shuttle-Tracker.xcodeproj
-xcode_scheme: Shuttle-Tracker 
+xcode_scheme: Shuttle-Tracker
 script:
  - xcodebuild CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+notifications:
+  slack: rcos:WWNMphR4ouhl7e4aI5C10izZ#shuttle-tracking
