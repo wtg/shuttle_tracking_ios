@@ -131,6 +131,7 @@ typedef enum {
 @property (strong, nonatomic) NSTimer *shuttleCleanupTimer;
 @property (strong, nonatomic) NSTimer *simpleVehicleCleanupTimer;
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
+@property (strong, nonatomic) CLLocationManager *locationManager;
 
 - (void)managedRoutesLoaded;
 //  notifyVehiclesUpdated may not be called on the main thread, so use it to call
@@ -170,6 +171,9 @@ typedef enum {
         NSMutableDictionary *shuttleImagesNorth = [[NSMutableDictionary alloc] init];
         NSMutableDictionary *shuttleImagesWest = [[NSMutableDictionary alloc] init];
         NSMutableDictionary *shuttleImagesSouth = [[NSMutableDictionary alloc] init];
+		
+		//  Initialize location manager
+		self.locationManager = [[CLLocationManager alloc] init];
         
         //  Create east, north, west and south facing shuttle images
         //  East
@@ -251,6 +255,8 @@ typedef enum {
     region.span.longitudeDelta = 0.0274;
     
     self.mapView.region = region;
+	
+	[self.locationManager requestWhenInUseAuthorization];
     
     [self.dataManager loadRoutesAndStops];
     
