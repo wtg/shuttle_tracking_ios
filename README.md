@@ -21,3 +21,5 @@ Use the Xcode project `ios/Shuttle-Tracker.xcodeproj`.
 
 ## Credits
 This project was created by the Web Technologies Group for use in conjunction with [shuttles.rpi.edu](http://shuttles.rpi.edu).
+
+The application is based off of [AbstractedSheep](https://github.com/AbstractedSheep)'s [Shuttle-Tracker application](https://github.com/AbstractedSheep/Shuttle-Tracker).
