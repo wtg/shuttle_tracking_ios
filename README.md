@@ -1,4 +1,4 @@
-# Shuttle Tracker for iOS
+# Shuttle Tracker for iOS [![Build Status](https://travis-ci.org/wtg/shuttle_tracking_ios.svg?branch=master)](https://travis-ci.org/wtg/shuttle_tracking_ios)
 A suite of applications to make community transportation more useful.  This repository contains the iOS shuttle tracking application developed by [AbstractedSheep](https://github.com/AbstractedSheep/Shuttle-Tracker).
 
 [![Download on the App Store](https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png)](https://itunes.apple.com/us/app/rpi-shuttles/id429089081?mt=8&uo=4)
@@ -18,3 +18,6 @@ Image licenses are detailed in IMAGES.EXTERNAL.
 
 ## Compiling
 Use the Xcode project `ios/Shuttle-Tracker.xcodeproj`.
+
+## Credits
+This project was created by the Web Technologies Group for use in conjunction with [shuttles.rpi.edu](http://shuttles.rpi.edu).
